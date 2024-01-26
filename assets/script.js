@@ -27,7 +27,7 @@ function bullets() {
     for (let i = 0; i < slides.length; i++) {
 	    const div = document.createElement("div");
 	    div.classList.add("dot");
-	    dots.appendChild(dot);
+	    dots.appendChild(div);
 	    const alldot = document.querySelectorAll(".dot");
 	    dots[0].classList.add("dot_selected");	
    }
