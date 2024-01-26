@@ -29,7 +29,7 @@ function bullets() {
 	    dots.appendChild(div);
 	    div.classList.add("dot");
 	    const alldot = document.querySelectorAll(".dot");
-	    dots[0].classList.add("dot_selected");	
+	    alldot[0].classList.add("dot_selected");	
    }
 }
 bullets();
