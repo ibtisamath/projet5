@@ -26,8 +26,8 @@ const dots = document.querySelector(".dots");
 function bullets() {
     for (let i = 0; i < slides.length; i++) {
 	    const div = document.createElement("div");
-	    div.classList.add("dot");
 	    dots.appendChild(div);
+	    div.classList.add("dot");
 	    const alldot = document.querySelectorAll(".dot");
 	    dots[0].classList.add("dot_selected");	
    }
