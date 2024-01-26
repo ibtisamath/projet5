@@ -30,7 +30,7 @@ function dots1 () {
 	    dot.classList.add("dot");
 	    dotsContainer.appendChild(dot);
 	    const dots = document.querySelectorAll(".dot");
-		dots[0].classList.add("dot_selected");	
+	    dots[0].classList.add("dot_selected");	
    }
 }
 dots1();
