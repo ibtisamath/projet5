@@ -36,7 +36,6 @@ function dots1 () {
 dots1();
 
 let i = 0;
-
 arrowright.addEventListener("click", function () {
 	const dots = document.querySelectorAll(".dot");
 	dots[i].classList.remove("dot_selected");
