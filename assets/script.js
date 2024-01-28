@@ -23,7 +23,6 @@ const img = document.querySelector(".banner-img");
 const p = document.querySelector("p");
 const dots = document.querySelector(".dots");
 
-function bullets() {
     for (let i = 0; i < slides.length; i++) {
 	    const div = document.createElement("div");
 	    dots.appendChild(div);
@@ -31,8 +30,7 @@ function bullets() {
 	    const alldot = document.querySelectorAll(".dot");
 	    alldot[0].classList.add("dot_selected");	
    }
-}
-bullets();
+
 
 let i = 0;
 arrowright.addEventListener("click", function () {
